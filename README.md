@@ -11,6 +11,6 @@ Link de Aplicación Implementada: https://sudoku.bdiaze.cl/
   - Lodash - Link: https://lodash.com/
 
 # Imagenes de Referencia:
-![Tablero Inicial](https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/TableroInicial.png)<br/>
-![Tablero Resultado](https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/TableroFinal.png)<br/>
-![Pasos Efectuados](https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/PasosEfectuados.png)<br/>
+<img alt="Tablero Inicial" src="https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/TableroInicial.png" /><br/>
+<img alt="Tablero Resultado" src="https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/TableroFinal.png" /><br/>
+<img alt="Pasos Efectuados" src="https://raw.githubusercontent.com/bdiaze/ResolvedorSudokuJS/master/images/PasosEfectuados.png" /><br/>
