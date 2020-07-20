@@ -1,0 +1,234 @@
+body {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 5px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+}
+
+table td {
+    border: 1px solid black;
+    white-space: nowrap;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+table td p {
+    margin: 0;
+    padding: 0;
+}
+
+table td.celdaMarcada p {
+    border: 2px dashed orange !important;
+    border-radius: 20px;
+    margin: 1px;
+    margin-left: 2px;
+    padding: 4px;
+    padding-left: 3px;
+}
+
+table td:nth-child(3n + 1) {
+    border-right-width: 3px;
+}
+
+table tr:nth-child(3n + 1) td {
+    border-bottom-width: 3px;  
+}
+
+table td:nth-child(1) {
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    width: 15px;
+    text-align: left;
+}
+
+table tr:nth-child(1) td {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    position: relative;
+    top: 1px;
+}
+
+table input {
+    width: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+table input:focus {
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+table.sinBorde, table.sinBorde td  {
+    border: none;
+}
+
+table.sinBorde td div{
+    margin: 7px;
+}
+
+h1 {
+    margin: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+h4 {
+    margin: 5px;
+}
+
+td.punteroTexto {
+    cursor: text;
+}
+
+.fondoIdentificado {
+    font-weight: bold;
+}
+
+.celdaIndice {
+    padding-right: 7px;
+}
+
+#imagenCargando {
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 10px;
+    visibility: hidden;
+}
+
+#imagenCargandoCheckbox {
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+
+/* Para Diagramas Treant */
+.grafico {
+    margin: 5px auto; 
+    display: inline-block;
+}
+
+.node { 
+    color: black; 
+    border: 2px solid black; 
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.node p { 
+    font-size: 20px; 
+    line-height: 20px; 
+    height: 20px; 
+    padding: 3px 8px; 
+    margin: 0; 
+    white-space: nowrap;
+}
+
+.nodoActivo {
+    border-color: palevioletred !important;
+    border-style: dotted;
+}
+
+.leyenda {
+    cursor: auto;
+}
+
+.movimientoInformado {
+    background-color: rgb(148, 206, 254);
+    border-color: rgb(111, 190, 255);
+}
+
+.movimientoDeducido {
+    background-color: rgb(182, 255, 182);
+    border-color: rgb(109, 255, 110);
+}
+
+.movimientoPrueba{
+    background-color: rgb(255, 253, 144);
+    border-color: rgb(255, 250, 72);
+}
+
+.movimientoObservado {
+    border-color: rgb(255, 109, 110);
+}
+
+td.movimientoObservado {
+    background-color: rgb(255, 144, 143) !important;
+    border-color: rgb(255, 109, 110);
+}
+
+td.movimientoInformado, td.movimientoDeducido, td.movimientoPrueba, td.movimientoObservado {
+    border-color: rgb(0, 0, 0);
+}
+
+#popupFondoOscuro {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#popupMatrizParcial {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1001;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.popupMatrizParcialSinObservacion {
+    width: 430px;
+    height: 462px;
+    margin-left: -215px;
+    margin-top: -231px;
+}
+
+.popupMatrizParcialConObservacion {
+    width: 606px;
+    height: 488px;
+    margin-left: -303px;
+    margin-top: -244px;
+}
